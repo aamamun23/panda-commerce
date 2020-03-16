@@ -1,0 +1,37 @@
+
+.container{
+	margin-bottom: 100px;
+}
+.navbar{
+	background-color: #FEEAE9;
+}
+.slider{
+	background-color: #FEEAE9;
+	border-radius: 10px;
+	.price{
+		color: #FF4891;
+	}
+	img{
+		padding: 50px 0;
+	}
+}
+.btn-buy-now{
+	background-color: #FF4891;
+	color: #fff;
+	font-weight: bold;
+	&:hover{
+		color: #fff;
+	};
+}
+.shoes{
+	.card{
+		border: 0;
+		-webkit-box-shadow: 10px 10px 20px #ccc;
+		box-shadow: 10px 10px 20px #ccc;
+		border-radius: 10px;
+		.card-footer{
+			border: 0;
+			background-color: transparent;
+		}
+	}
+}
